@@ -5,4 +5,4 @@ To run:
 Enter into the terminal: `python -m http.server`
 Navigate to localhost:8000 in your browser.
 
-![data viz screenshot](assets/screenshot.png)
+![data viz screenshot](assets/dataVizScreengrab.png)
