@@ -23,7 +23,7 @@ def get_case_inc_avg(team_county):
     return team_county['case_inc_avg']
 
 
-with open('counties.csv', newline='') as counties_csv:
+with open('data/counties.csv', newline='') as counties_csv:
     reader = csv.DictReader(counties_csv)
     team_counties = []
     for team_county in reader:
@@ -37,7 +37,7 @@ with open('counties.csv', newline='') as counties_csv:
 
     sortedlist = sorted(team_counties, key=get_case_inc_avg, reverse=True)
 
-    with open('case_inc_avg.csv', 'w', newline='\n') as csvfile:
+    with open('data/case_inc_avg.csv', 'w', newline='\n') as csvfile:
         writer = csv.writer(csvfile, delimiter=',')
         writer.writerow(['Team', 'County', 'Population', 'New Case Daily Avg/100K'])
         for tc in sortedlist:
