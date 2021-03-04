@@ -3,14 +3,17 @@
   <head>
     <meta charset="utf-8">
     <title>NBA County Covid Cases</title>
+    <link href="styles/index.css" rel="stylesheet" />
   </head>
   <body>
     <h1>NBA County Covid Cases</h1>
     <!-- Load d3.js -->
     <script src="https://d3js.org/d3.v4.js"></script>
 
-    <!-- Create a div where the graph will take place -->
-    <div id="my_dataviz"></div>
+    <div class="graph-container">
+      <div id="bar-graph"></div>
+      <div id="lines-graph"></div>
+    </div>
     <script src="scripts/makeViz.js"></script>
   </body>
 </html>
