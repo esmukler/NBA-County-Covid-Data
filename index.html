@@ -6,13 +6,23 @@
     <link href="styles/index.css" rel="stylesheet" />
   </head>
   <body>
-    <h1>NBA County Covid Cases</h1>
+    <h1>COVID-19 Data in Counties with NBA Teams</h1>
     <!-- Load d3.js -->
     <script src="https://d3js.org/d3.v4.js"></script>
 
-    <div class="graph-container">
-      <div id="bar-graph"></div>
-      <div id="lines-graph"></div>
+    <div class="graphs-container">
+      <div class="graph-container">
+        <p id="bar-graph-header">
+          7-day Average of New COVID-19 Cases per 100K people
+        </p>
+        <div id="bar-graph"></div>
+      </div>
+      <div class="graph-container">
+        <p id="bar-graph-header">
+          7-day Average of New COVID-19 Cases per 100K people over time
+        </p>
+        <div id="lines-graph"></div>
+      </div>
     </div>
     <script src="scripts/makeViz.js"></script>
   </body>

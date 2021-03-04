@@ -12,14 +12,16 @@ var svg = d3.select("#lines-graph")
     .attr("transform",
           "translate(" + margin.left + "," + margin.top + ")");
 
-const massageTheData = (d) => ({
+const formatTheData = (d) => ({
   date: d3.timeParse("%Y-%m-%d")(d['Date']),
   caseIncAvg: parseFloat(d['New Case Daily Avg/100K']),
   team: d['Team'],
+  county: d['County'],
+  state: d['State'],
 });
 
 //Read the data
-d3.csv("data/case_inc_avg.csv", massageTheData,
+d3.csv("data/case_inc_avg.csv", formatTheData,
 
 // Now I can use this dataset:
 function(data) {
@@ -80,22 +82,28 @@ var svgBar = d3.select("#bar-graph")
     .attr("transform",
           "translate(" + margin.left + "," + margin.top + ")");
 
-// Parse the Data
-d3.csv("./data/case_inc_avg.csv", massageTheData,
+// Define the div for the tooltip
+var tooltipDiv = d3.select("#bar-graph")
+  .append("div")
+    .attr("class", "tooltip")
+    .style("opacity", 0);
 
-function(err, data) {
+// Parse the Data
+d3.csv("./data/case_inc_avg.csv", formatTheData,
+
+function(err, rawData) {
   if (err) throw(err);
 
-  data = data.filter(d => {
-    var cutoffDate = new Date();
-    cutoffDate.setDate(cutoffDate.getDate() - 2);
-    return d.date > cutoffDate;
+  const mostRecentData = {};
+  rawData.forEach(d => {
+    const existing = mostRecentData[d.team];
+    if (!existing || d.date >= existing.date) {
+      mostRecentData[d.team] = d;
+    }
   });
+  data = Object.values(mostRecentData);
 
-  data.sort(function(a, b) {
-    return b.caseIncAvg - a.caseIncAvg;
-  });
-  console.log('after sort', data.map(d => d.team));
+  data.sort((a, b) => b.caseIncAvg - a.caseIncAvg);
 
   // X axis
   var x = d3.scaleBand()
@@ -127,5 +135,17 @@ function(err, data) {
       .attr("width", x.bandwidth())
       .attr("height", function(d) { return height - y(d.caseIncAvg); })
       .attr("fill", "orange")
-
+      .on("mouseover", function(d) {
+          tooltipDiv.transition()
+              .duration(200)
+              .style("opacity", .9);
+          tooltipDiv.html(d.caseIncAvg + "<br/>"  + d.team + "<br/>" + d.county + " County")
+              .style("left", (d3.event.pageX) + "px")
+              .style("top", (d3.event.pageY - 28) + "px");
+          })
+      .on("mouseout", function(d) {
+          tooltipDiv.transition()
+              .duration(500)
+              .style("opacity", 0);
+      });
 })
