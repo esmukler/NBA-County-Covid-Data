@@ -105,23 +105,21 @@ function(err, rawData) {
 
   data.sort((a, b) => b.caseIncAvg - a.caseIncAvg);
 
+
   // X axis
-  var x = d3.scaleBand()
-    .range([ 0, width ])
-    .domain(data.map(d => d.team))
-    .padding(0.2);
+  const maxCaseAvg = d3.max(data.map(d => d.caseIncAvg));
+  const x = d3.scaleLinear()
+    .domain([0, maxCaseAvg * 1.10])
+    .range([0, width]);
   svgBar.append("g")
     .attr("transform", "translate(0," + height + ")")
     .call(d3.axisBottom(x))
-    .selectAll("text")
-      .attr("transform", "translate(-10,0)rotate(-45)")
-      .style("text-anchor", "end");
 
-  const maxCaseAvg = d3.max(data.map(d => d.caseIncAvg));
-  // Add Y axis
-  var y = d3.scaleLinear()
-    .domain([0, maxCaseAvg * 1.10])
-    .range([ height, 0]);
+  // Y axis
+  var y = d3.scaleBand()
+    .domain(data.map(d => d.team))
+    .range([ 0, height ])
+    .padding(0.2);
   svgBar.append("g")
     .call(d3.axisLeft(y));
 
@@ -130,10 +128,11 @@ function(err, rawData) {
     .data(data)
     .enter()
     .append("rect")
-      .attr("x", function(d) { return x(d.team); })
-      .attr("y", function(d) { return y(d.caseIncAvg); })
-      .attr("width", x.bandwidth())
-      .attr("height", function(d) { return height - y(d.caseIncAvg); })
+      .attr("class", d => d.team)
+      .attr("x", () => x(0) + 1 )
+      .attr("y", d => y(d.team))
+      .attr("width", d => x(d.caseIncAvg))
+      .attr("height", y.bandwidth())
       .attr("fill", "orange")
       .on("mouseover", function(d) {
           tooltipDiv.transition()
@@ -145,7 +144,7 @@ function(err, rawData) {
           })
       .on("mouseout", function(d) {
           tooltipDiv.transition()
-              .duration(500)
+              .duration(200)
               .style("opacity", 0);
       });
 })
