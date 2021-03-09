@@ -1,4 +1,4 @@
-Team,County,State,Date,New Case Daily Avg/100K
+team,county,state,date,case_inc_avg
 ATL,Fulton,Georgia,2021-02-14,27.2
 ATL,Fulton,Georgia,2021-02-15,26.36
 ATL,Fulton,Georgia,2021-02-16,25.08
@@ -21,6 +21,7 @@ ATL,Fulton,Georgia,2021-03-04,30.87
 ATL,Fulton,Georgia,2021-03-05,28.15
 ATL,Fulton,Georgia,2021-03-06,28.48
 ATL,Fulton,Georgia,2021-03-07,27.93
+ATL,Fulton,Georgia,2021-03-08,27.05
 BOS,Suffolk,Massachusetts,2021-02-14,29.54
 BOS,Suffolk,Massachusetts,2021-02-15,30.22
 BOS,Suffolk,Massachusetts,2021-02-16,29.5
@@ -43,6 +44,7 @@ BOS,Suffolk,Massachusetts,2021-03-04,24.26
 BOS,Suffolk,Massachusetts,2021-03-05,24.55
 BOS,Suffolk,Massachusetts,2021-03-06,24.32
 BOS,Suffolk,Massachusetts,2021-03-07,23.67
+BOS,Suffolk,Massachusetts,2021-03-08,22.22
 CHA,Mecklenburg,North Carolina,2021-02-14,36.28
 CHA,Mecklenburg,North Carolina,2021-02-15,34.24
 CHA,Mecklenburg,North Carolina,2021-02-16,34.0
@@ -65,6 +67,7 @@ CHA,Mecklenburg,North Carolina,2021-03-04,21.91
 CHA,Mecklenburg,North Carolina,2021-03-05,20.14
 CHA,Mecklenburg,North Carolina,2021-03-06,18.64
 CHA,Mecklenburg,North Carolina,2021-03-07,18.64
+CHA,Mecklenburg,North Carolina,2021-03-08,15.2
 CHI,Cook,Illinois,2021-02-14,14.73
 CHI,Cook,Illinois,2021-02-15,14.58
 CHI,Cook,Illinois,2021-02-16,14.05
@@ -87,6 +90,7 @@ CHI,Cook,Illinois,2021-03-04,12.72
 CHI,Cook,Illinois,2021-03-05,11.51
 CHI,Cook,Illinois,2021-03-06,12.52
 CHI,Cook,Illinois,2021-03-07,12.33
+CHI,Cook,Illinois,2021-03-08,12.3
 CLE,Cuyahoga,Ohio,2021-02-14,17.81
 CLE,Cuyahoga,Ohio,2021-02-15,18.14
 CLE,Cuyahoga,Ohio,2021-02-16,18.27
@@ -109,6 +113,7 @@ CLE,Cuyahoga,Ohio,2021-03-04,18.06
 CLE,Cuyahoga,Ohio,2021-03-05,18.23
 CLE,Cuyahoga,Ohio,2021-03-06,17.45
 CLE,Cuyahoga,Ohio,2021-03-07,16.59
+CLE,Cuyahoga,Ohio,2021-03-08,16.22
 DAL,Dallas,Texas,2021-02-14,38.75
 DAL,Dallas,Texas,2021-02-15,33.77
 DAL,Dallas,Texas,2021-02-16,31.98
@@ -131,6 +136,7 @@ DAL,Dallas,Texas,2021-03-04,22.31
 DAL,Dallas,Texas,2021-03-05,20.85
 DAL,Dallas,Texas,2021-03-06,19.76
 DAL,Dallas,Texas,2021-03-07,19.76
+DAL,Dallas,Texas,2021-03-08,15.65
 DEN,Denver,Colorado,2021-02-14,21.4
 DEN,Denver,Colorado,2021-02-15,20.39
 DEN,Denver,Colorado,2021-02-16,19.38
@@ -153,6 +159,7 @@ DEN,Denver,Colorado,2021-03-04,18.18
 DEN,Denver,Colorado,2021-03-05,17.31
 DEN,Denver,Colorado,2021-03-06,18.0
 DEN,Denver,Colorado,2021-03-07,17.23
+DEN,Denver,Colorado,2021-03-08,18.95
 DET,Wayne,Michigan,2021-02-14,9.42
 DET,Wayne,Michigan,2021-02-15,8.06
 DET,Wayne,Michigan,2021-02-16,8.66
@@ -175,6 +182,7 @@ DET,Wayne,Michigan,2021-03-04,13.17
 DET,Wayne,Michigan,2021-03-05,14.45
 DET,Wayne,Michigan,2021-03-06,14.49
 DET,Wayne,Michigan,2021-03-07,14.49
+DET,Wayne,Michigan,2021-03-08,15.46
 GSW,San Francisco,California,2021-02-14,13.94
 GSW,San Francisco,California,2021-02-15,12.49
 GSW,San Francisco,California,2021-02-16,12.65
@@ -197,6 +205,7 @@ GSW,San Francisco,California,2021-03-04,6.24
 GSW,San Francisco,California,2021-03-05,5.58
 GSW,San Francisco,California,2021-03-06,5.11
 GSW,San Francisco,California,2021-03-07,4.9
+GSW,San Francisco,California,2021-03-08,4.95
 HOU,Harris,Texas,2021-02-14,26.4
 HOU,Harris,Texas,2021-02-15,28.0
 HOU,Harris,Texas,2021-02-16,26.77
@@ -219,6 +228,7 @@ HOU,Harris,Texas,2021-03-04,35.45
 HOU,Harris,Texas,2021-03-05,29.0
 HOU,Harris,Texas,2021-03-06,29.69
 HOU,Harris,Texas,2021-03-07,28.23
+HOU,Harris,Texas,2021-03-08,27.32
 IND,Marion,Indiana,2021-02-14,16.94
 IND,Marion,Indiana,2021-02-15,16.63
 IND,Marion,Indiana,2021-02-16,16.03
@@ -241,6 +251,7 @@ IND,Marion,Indiana,2021-03-04,9.35
 IND,Marion,Indiana,2021-03-05,9.61
 IND,Marion,Indiana,2021-03-06,10.64
 IND,Marion,Indiana,2021-03-07,10.7
+IND,Marion,Indiana,2021-03-08,10.55
 LAC,Los Angeles,California,2021-02-14,28.51
 LAC,Los Angeles,California,2021-02-15,27.4
 LAC,Los Angeles,California,2021-02-16,24.6
@@ -263,6 +274,7 @@ LAC,Los Angeles,California,2021-03-04,15.07
 LAC,Los Angeles,California,2021-03-05,15.45
 LAC,Los Angeles,California,2021-03-06,15.58
 LAC,Los Angeles,California,2021-03-07,15.93
+LAC,Los Angeles,California,2021-03-08,15.78
 LAL,Los Angeles,California,2021-02-14,28.51
 LAL,Los Angeles,California,2021-02-15,27.4
 LAL,Los Angeles,California,2021-02-16,24.6
@@ -285,6 +297,7 @@ LAL,Los Angeles,California,2021-03-04,15.07
 LAL,Los Angeles,California,2021-03-05,15.45
 LAL,Los Angeles,California,2021-03-06,15.58
 LAL,Los Angeles,California,2021-03-07,15.93
+LAL,Los Angeles,California,2021-03-08,15.78
 MEM,Shelby,Tennessee,2021-02-14,22.15
 MEM,Shelby,Tennessee,2021-02-15,19.65
 MEM,Shelby,Tennessee,2021-02-16,19.65
@@ -307,6 +320,7 @@ MEM,Shelby,Tennessee,2021-03-04,13.32
 MEM,Shelby,Tennessee,2021-03-05,12.39
 MEM,Shelby,Tennessee,2021-03-06,12.08
 MEM,Shelby,Tennessee,2021-03-07,12.16
+MEM,Shelby,Tennessee,2021-03-08,12.14
 MIA,Miami-Dade,Florida,2021-02-14,54.88
 MIA,Miami-Dade,Florida,2021-02-15,50.39
 MIA,Miami-Dade,Florida,2021-02-16,49.76
@@ -329,6 +343,7 @@ MIA,Miami-Dade,Florida,2021-03-04,47.81
 MIA,Miami-Dade,Florida,2021-03-05,49.49
 MIA,Miami-Dade,Florida,2021-03-06,48.66
 MIA,Miami-Dade,Florida,2021-03-07,46.37
+MIA,Miami-Dade,Florida,2021-03-08,49.68
 MIL,Milwaukee,Wisconsin,2021-02-14,14.21
 MIL,Milwaukee,Wisconsin,2021-02-15,13.88
 MIL,Milwaukee,Wisconsin,2021-02-16,13.49
@@ -351,6 +366,7 @@ MIL,Milwaukee,Wisconsin,2021-03-04,9.22
 MIL,Milwaukee,Wisconsin,2021-03-05,9.72
 MIL,Milwaukee,Wisconsin,2021-03-06,9.57
 MIL,Milwaukee,Wisconsin,2021-03-07,9.76
+MIL,Milwaukee,Wisconsin,2021-03-08,9.51
 MIN,Hennepin,Minnesota,2021-02-14,12.82
 MIN,Hennepin,Minnesota,2021-02-15,12.62
 MIN,Hennepin,Minnesota,2021-02-16,12.3
@@ -373,6 +389,7 @@ MIN,Hennepin,Minnesota,2021-03-04,13.05
 MIN,Hennepin,Minnesota,2021-03-05,12.42
 MIN,Hennepin,Minnesota,2021-03-06,12.74
 MIN,Hennepin,Minnesota,2021-03-07,13.12
+MIN,Hennepin,Minnesota,2021-03-08,12.57
 NO,Orleans,Louisiana,2021-02-14,20.03
 NO,Orleans,Louisiana,2021-02-15,18.24
 NO,Orleans,Louisiana,2021-02-16,13.49
@@ -395,6 +412,7 @@ NO,Orleans,Louisiana,2021-03-04,10.34
 NO,Orleans,Louisiana,2021-03-05,9.83
 NO,Orleans,Louisiana,2021-03-06,9.83
 NO,Orleans,Louisiana,2021-03-07,9.06
+NO,Orleans,Louisiana,2021-03-08,8.88
 OKC,Oklahoma,Oklahoma,2021-02-14,28.42
 OKC,Oklahoma,Oklahoma,2021-02-15,27.69
 OKC,Oklahoma,Oklahoma,2021-02-16,26.08
@@ -417,6 +435,7 @@ OKC,Oklahoma,Oklahoma,2021-03-04,18.17
 OKC,Oklahoma,Oklahoma,2021-03-05,18.75
 OKC,Oklahoma,Oklahoma,2021-03-06,16.91
 OKC,Oklahoma,Oklahoma,2021-03-07,16.66
+OKC,Oklahoma,Oklahoma,2021-03-08,16.21
 ORL,Orange,Florida,2021-02-14,31.78
 ORL,Orange,Florida,2021-02-15,29.44
 ORL,Orange,Florida,2021-02-16,29.88
@@ -439,6 +458,7 @@ ORL,Orange,Florida,2021-03-04,22.7
 ORL,Orange,Florida,2021-03-05,22.97
 ORL,Orange,Florida,2021-03-06,22.43
 ORL,Orange,Florida,2021-03-07,21.64
+ORL,Orange,Florida,2021-03-08,22.17
 PHI,Philadelphia,Pennsylvania,2021-02-14,23.14
 PHI,Philadelphia,Pennsylvania,2021-02-15,14.98
 PHI,Philadelphia,Pennsylvania,2021-02-16,16.23
@@ -461,6 +481,7 @@ PHI,Philadelphia,Pennsylvania,2021-03-04,17.37
 PHI,Philadelphia,Pennsylvania,2021-03-05,20.19
 PHI,Philadelphia,Pennsylvania,2021-03-06,20.19
 PHI,Philadelphia,Pennsylvania,2021-03-07,20.19
+PHI,Philadelphia,Pennsylvania,2021-03-08,17.6
 PHX,Maricopa,Arizona,2021-02-14,37.14
 PHX,Maricopa,Arizona,2021-02-15,34.38
 PHX,Maricopa,Arizona,2021-02-16,24.33
@@ -483,6 +504,7 @@ PHX,Maricopa,Arizona,2021-03-04,15.11
 PHX,Maricopa,Arizona,2021-03-05,15.9
 PHX,Maricopa,Arizona,2021-03-06,17.76
 PHX,Maricopa,Arizona,2021-03-07,19.33
+PHX,Maricopa,Arizona,2021-03-08,18.7
 POR,Multnomah,Oregon,2021-02-14,8.77
 POR,Multnomah,Oregon,2021-02-15,7.95
 POR,Multnomah,Oregon,2021-02-16,9.06
@@ -505,6 +527,7 @@ POR,Multnomah,Oregon,2021-03-04,4.07
 POR,Multnomah,Oregon,2021-03-05,4.35
 POR,Multnomah,Oregon,2021-03-06,4.19
 POR,Multnomah,Oregon,2021-03-07,3.76
+POR,Multnomah,Oregon,2021-03-08,2.97
 SAC,Sacramento,California,2021-02-14,17.51
 SAC,Sacramento,California,2021-02-15,18.15
 SAC,Sacramento,California,2021-02-16,17.09
@@ -527,6 +550,7 @@ SAC,Sacramento,California,2021-03-04,9.4
 SAC,Sacramento,California,2021-03-05,9.08
 SAC,Sacramento,California,2021-03-06,9.39
 SAC,Sacramento,California,2021-03-07,9.85
+SAC,Sacramento,California,2021-03-08,9.68
 SAS,Bexar,Texas,2021-02-14,33.25
 SAS,Bexar,Texas,2021-02-15,31.53
 SAS,Bexar,Texas,2021-02-16,21.67
@@ -549,6 +573,7 @@ SAS,Bexar,Texas,2021-03-04,20.2
 SAS,Bexar,Texas,2021-03-05,18.63
 SAS,Bexar,Texas,2021-03-06,16.11
 SAS,Bexar,Texas,2021-03-07,14.92
+SAS,Bexar,Texas,2021-03-08,14.5
 TOR,Hillsborough,Florida,2021-02-14,28.33
 TOR,Hillsborough,Florida,2021-02-15,28.39
 TOR,Hillsborough,Florida,2021-02-16,27.98
@@ -571,6 +596,7 @@ TOR,Hillsborough,Florida,2021-03-04,21.97
 TOR,Hillsborough,Florida,2021-03-05,22.18
 TOR,Hillsborough,Florida,2021-03-06,22.01
 TOR,Hillsborough,Florida,2021-03-07,21.92
+TOR,Hillsborough,Florida,2021-03-08,22.54
 UTA,Salt Lake,Utah,2021-02-14,30.14
 UTA,Salt Lake,Utah,2021-02-15,29.92
 UTA,Salt Lake,Utah,2021-02-16,28.25
@@ -593,6 +619,7 @@ UTA,Salt Lake,Utah,2021-03-04,16.79
 UTA,Salt Lake,Utah,2021-03-05,16.9
 UTA,Salt Lake,Utah,2021-03-06,16.04
 UTA,Salt Lake,Utah,2021-03-07,16.13
+UTA,Salt Lake,Utah,2021-03-08,16.34
 WAS,District of Columbia,District of Columbia,2021-02-14,18.21
 WAS,District of Columbia,District of Columbia,2021-02-15,17.84
 WAS,District of Columbia,District of Columbia,2021-02-16,17.53
@@ -615,6 +642,7 @@ WAS,District of Columbia,District of Columbia,2021-03-04,18.4
 WAS,District of Columbia,District of Columbia,2021-03-05,17.28
 WAS,District of Columbia,District of Columbia,2021-03-06,16.4
 WAS,District of Columbia,District of Columbia,2021-03-07,16.93
+WAS,District of Columbia,District of Columbia,2021-03-08,18.46
 NYK,New York City,New York,2021-02-14,52.53
 NYK,New York City,New York,2021-02-15,50.08
 NYK,New York City,New York,2021-02-16,48.2
@@ -637,6 +665,7 @@ NYK,New York City,New York,2021-03-04,46.23
 NYK,New York City,New York,2021-03-05,45.82
 NYK,New York City,New York,2021-03-06,46.31
 NYK,New York City,New York,2021-03-07,46.6
+NYK,New York City,New York,2021-03-08,45.2
 BKN,New York City,New York,2021-02-14,52.53
 BKN,New York City,New York,2021-02-15,50.08
 BKN,New York City,New York,2021-02-16,48.2
@@ -659,3 +688,4 @@ BKN,New York City,New York,2021-03-04,46.23
 BKN,New York City,New York,2021-03-05,45.82
 BKN,New York City,New York,2021-03-06,46.31
 BKN,New York City,New York,2021-03-07,46.6
+BKN,New York City,New York,2021-03-08,45.2

@@ -9,11 +9,9 @@ const colors = {
 }
 
 const formatTheData = (d) => ({
-  date: d3.timeParse("%Y-%m-%d")(d['Date']),
-  caseIncAvg: parseFloat(d['New Case Daily Avg/100K']),
-  team: d['Team'],
-  county: d['County'],
-  state: d['State'],
+  ...d,
+  date: d3.timeParse("%Y-%m-%d")(d['date']),
+  caseIncAvg: parseFloat(d['case_inc_avg']),
 });
 
 // append the svg object to the body of the page
