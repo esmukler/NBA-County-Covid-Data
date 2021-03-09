@@ -92,8 +92,9 @@ function(err, rawData) {
       });
 })
 
+
 // append the svg object to the body of the page
-var svg = d3.select("#lines-graph")
+var svgLine = d3.select("#lines-graph")
   .append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
@@ -101,21 +102,17 @@ var svg = d3.select("#lines-graph")
     .attr("transform",
           "translate(" + margin.left + "," + margin.top + ")");
 
-//Read the data
-d3.csv("data/case_inc_avg.csv", formatTheData,
-
-// Now I can use this dataset:
-function(data) {
+function renderTheData(data) {
   var sumstat = d3.nest() // nest function allows to group the calculation per level of a factor
     .key(d => d.team)
     .entries(data);
 
   // Add X axis --> it is a date format
   var x = d3.scaleTime()
-    .domain(d3.extent(data, function(d) { return d.date; }))
+    .domain(d3.extent(data, d => d.date))
     .range([ 0, width ])
 
-  svg.append("g")
+  svgLine.append("g")
     .attr("transform", "translate(0," + height + ")")
     .call(d3.axisBottom(x).tickFormat(d3.timeFormat('%b %e')))
     .selectAll("text")
@@ -129,7 +126,7 @@ function(data) {
     .domain([0, d3.max(data, function(d) { return +d.caseIncAvg; })])
     .range([ height, 0 ]);
 
-  svg.append("g")
+  svgLine.append("g")
     .call(d3.axisLeft(y));
 
   // var res = sumstat.map(d => d.team) // list of group names
@@ -137,19 +134,84 @@ function(data) {
   //   .domain(res)
   //   .range(['#e41a1c','#377eb8','#4daf4a','#984ea3','#ff7f00','#ffff33','#a65628','#f781bf','#999999'])
 
-  // Add the line
-  svg.selectAll(".line")
+  // Add the lines
+  const path = svgLine.selectAll(".line")
     .data(sumstat)
     .enter()
     .append("path")
       .attr("fill", "none")
       .attr("stroke", "steelblue")
+      .attr("class", d => `team-line ${d.key}`)
       // .attr("stroke", function(d){ return color(d.team) })
       .attr("stroke-width", 1.5)
       .attr("d", function(d) {
           return d3.line()
-            .x(function(d) { return x(d.date); })
-            .y(function(d) { return y(d.caseIncAvg); })
+            .x(d => x(d.date))
+            .y(d => y(d.caseIncAvg))
             (d.values)
         })
-})
+
+  // highlight closest line
+  function getClosestDatumToPoint(data, date, caseVal) {
+    const datesAreOnSameDay = (first, second) =>
+      first.getFullYear() === second.getFullYear() &&
+      first.getMonth() === second.getMonth() &&
+      first.getDate() === second.getDate();
+
+    const sameDayData = data.filter(row => datesAreOnSameDay(row.date, date));
+
+    let bestDatum;
+    let bestDiff;
+    sameDayData.forEach(row => {
+      const diff = Math.abs(row.caseIncAvg - caseVal);
+      if (!bestDatum || diff < bestDiff) {
+        bestDiff = diff;
+        bestDatum = row;
+      }
+    });
+    return bestDatum;
+  };
+
+  // create focus element
+  const focus = svgLine.append("g")
+    .style("display", "none");
+
+  // append the circle at the intersection
+  focus.append("circle")
+    .attr("class", "focus")
+    .style("fill", "none")
+    .style("stroke", "blue")
+    .attr("r", 4);
+
+  // append the rectangle to capture mouse
+  svgLine.append("rect")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+    .style("fill", "none")
+    .style("pointer-events", "all")
+    .on("mouseover", function() { focus.style("display", null); })
+    .on("mouseout", function() { focus.style("display", "none"); })
+    .on("mousemove", mousemove);
+
+  function mousemove() {
+    const [currentX, currentY] = d3.mouse(this);
+    var x0 = x.invert(currentX);
+    var y0 = y.invert(currentY);
+    var closestRow = getClosestDatumToPoint(data, x0, y0);
+
+    function match(row, datum) {
+      return row.county === datum.values[0].county && row.state === datum.values[0].state;
+    }
+
+    path
+      .style("stroke", d => match(closestRow, d) ? colors.defaultOrange : colors.defaultGray)
+      .style("stroke-width", d => match(closestRow, d) ? 2 : 1.5)
+      .filter(d => match(closestRow, d))
+      .raise(); // bring to the foreground over other paths
+
+    focus.select("circle.focus")
+      .attr("transform", "translate(" + x(closestRow.date) + "," + y(closestRow.caseIncAvg) + ")");
+  }
+}
+
+d3.csv("data/case_inc_avg.csv", formatTheData, renderTheData);
