@@ -76,7 +76,7 @@ function(err, rawData) {
       .attr("height", y.bandwidth())
       .attr("fill", colors.defaultGray)
       .on("mouseover", function(d) {
-          d3.select(this).attr("fill", colors.defaultOrange);
+          d3.select(this).attr("fill", d => d.color);
           tooltipDiv.transition()
               .duration(200)
               .style("opacity", .9);
@@ -204,7 +204,7 @@ function renderTheData(data) {
     }
 
     path
-      .style("stroke", d => match(closestRow, d) ? colors.defaultOrange : colors.defaultGray)
+      .style("stroke", d => match(closestRow, d) ? d.values[0].color : colors.defaultGray)
       .style("stroke-width", d => match(closestRow, d) ? 2 : 1.5)
       .filter(d => match(closestRow, d))
       .raise(); // bring to the foreground over other paths

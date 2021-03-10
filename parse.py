@@ -3,7 +3,7 @@ import requests
 import os
 
 nyt_counties_url = 'https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties-recent.csv'
-col_keys = ['team', 'county', 'state', 'date', 'case_inc_avg']
+col_keys = ['team', 'county', 'state', 'date', 'case_inc_avg', 'color']
 
 with requests.Session() as s:
     download = s.get(nyt_counties_url)
@@ -57,6 +57,7 @@ with open('data/counties.csv', newline='') as counties_csv:
                     'date': county_date['date'],
                     'case_inc_avg': round(case_inc_avg, 2),
                     'team': team_county['team'],
+                    'color': team_county['color']
                 })
 
 os.rename('data/case_inc_avg.csv', 'data/case_inc_avg_old.csv')

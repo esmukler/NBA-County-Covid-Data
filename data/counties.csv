@@ -1,34 +1,34 @@
-fips,county,population,team
-13121,"Fulton County, Georgia",1036200,ATL
-25025,"Suffolk County, Massachusetts",796605,BOS
-37119,"Mecklenburg County, North Carolina",1074475,CHA
-17031,"Cook County, Illinois",5198275,CHI
-39035,"Cuyahoga County, Ohio",1247451,CLE
-48113,"Dallas County, Texas",2606868,DAL
-08031,"Denver County, Colorado",705576,DEN
-26163,"Wayne County, Michigan",1757299,DET
-06075,"San Francisco County, California",874961,GSW
-48201,"Harris County, Texas",4646630,HOU
-18097,"Marion County, Indiana",951869,IND
-06037,"Los Angeles County, California",10081570,LAC
-06037,"Los Angeles County, California",10081570,LAL
-47157,"Shelby County, Tennessee",936374,MEM
-12086,"Miami-Dade County, Florida",2699428,MIA
-55079,"Milwaukee County, Wisconsin",951226,MIL
-27053,"Hennepin County, Minnesota",1245837,MIN
-22071,"Orleans Parish, Louisiana",390845,NO
-40109,"Oklahoma County, Oklahoma",787216,OKC
-12095,"Orange County, Florida",1349746,ORL
-42101,"Philadelphia County, Pennsylvania",1579075,PHI
-04013,"Maricopa County, Arizona",4328810,PHX
-41051,"Multnomah County, Oregon",804606,POR
-06067,"Sacramento County, California",1524553,SAC
-48029,"Bexar County, Texas",1952843,SAS
-12057,"Hillsborough County, Florida",1422278,TOR
-49035,"Salt Lake County, Utah",1133646,UTA
-11001,"District of Columbia, District of Columbia",692683,WAS
-0,New York City,8419316,NYK
-0,New York City,8419316,BKN
+fips,county,population,team,color
+13121,"Fulton County, Georgia",1036200,ATL,#E03A3E
+25025,"Suffolk County, Massachusetts",796605,BOS,#007A33
+37119,"Mecklenburg County, North Carolina",1074475,CHA,#1D1160
+17031,"Cook County, Illinois",5198275,CHI,#CE1141
+39035,"Cuyahoga County, Ohio",1247451,CLE,#860038
+48113,"Dallas County, Texas",2606868,DAL,#00538C
+08031,"Denver County, Colorado",705576,DEN,#0E2240
+26163,"Wayne County, Michigan",1757299,DET,#006BB6
+06075,"San Francisco County, California",874961,GSW,#006BB6
+48201,"Harris County, Texas",4646630,HOU,#CE1141
+18097,"Marion County, Indiana",951869,IND,#002D62
+06037,"Los Angeles County, California",10081570,LAC,#ED174C
+06037,"Los Angeles County, California",10081570,LAL,#552583
+47157,"Shelby County, Tennessee",936374,MEM,#6189B9
+12086,"Miami-Dade County, Florida",2699428,MIA,#98002E
+55079,"Milwaukee County, Wisconsin",951226,MIL,#00471b
+27053,"Hennepin County, Minnesota",1245837,MIN,#0c2340
+22071,"Orleans Parish, Louisiana",390845,NO,#002b5c
+40109,"Oklahoma County, Oklahoma",787216,OKC,#007AC1
+12095,"Orange County, Florida",1349746,ORL,#0057b8
+42101,"Philadelphia County, Pennsylvania",1579075,PHI,#006BB6
+04013,"Maricopa County, Arizona",4328810,PHX,#1D1160
+41051,"Multnomah County, Oregon",804606,POR,#E03A3E
+06067,"Sacramento County, California",1524553,SAC,#5A2D81
+48029,"Bexar County, Texas",1952843,SAS,#000
+12057,"Hillsborough County, Florida",1422278,TOR,#CE1141
+49035,"Salt Lake County, Utah",1133646,UTA,#002B5C
+11001,"District of Columbia, District of Columbia",692683,WAS,002B5C
+0,New York City,8419316,NYK,#006BB6
+0,New York City,8419316,BKN,#000000
 36047,"Kings County, New York",2589974
 36081,"Queens County, New York",2287388
 36061,"New York County, New York",1631993
