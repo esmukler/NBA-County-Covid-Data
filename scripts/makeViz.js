@@ -102,6 +102,12 @@ var svgLine = d3.select("#lines-graph")
     .attr("transform",
           "translate(" + margin.left + "," + margin.top + ")");
 
+// Define the div for the tooltip
+var linesTooltip = d3.select("#lines-graph")
+  .append("div")
+    .attr("class", "tooltip lines")
+    .style("opacity", 0);
+
 function renderTheData(data) {
   var sumstat = d3.nest() // nest function allows to group the calculation per level of a factor
     .key(d => d.team)
@@ -112,9 +118,11 @@ function renderTheData(data) {
     .domain(d3.extent(data, d => d.date))
     .range([ 0, width ])
 
+  var formatDate = d3.timeFormat('%b %e')
+
   svgLine.append("g")
     .attr("transform", "translate(0," + height + ")")
-    .call(d3.axisBottom(x).tickFormat(d3.timeFormat('%b %e')))
+    .call(d3.axisBottom(x).tickFormat(formatDate))
     .selectAll("text")
       .style("text-anchor", "end")
       .attr("dx", "-.8em")
@@ -129,27 +137,21 @@ function renderTheData(data) {
   svgLine.append("g")
     .call(d3.axisLeft(y));
 
-  // var res = sumstat.map(d => d.team) // list of group names
-  // var color = d3.scaleOrdinal()
-  //   .domain(res)
-  //   .range(['#e41a1c','#377eb8','#4daf4a','#984ea3','#ff7f00','#ffff33','#a65628','#f781bf','#999999'])
-
   // Add the lines
   const path = svgLine.selectAll(".line")
     .data(sumstat)
     .enter()
     .append("path")
       .attr("fill", "none")
-      .attr("stroke", "steelblue")
+      .attr("stroke", colors.defaultGray)
       .attr("class", d => `team-line ${d.key}`)
-      // .attr("stroke", function(d){ return color(d.team) })
       .attr("stroke-width", 1.5)
       .attr("d", function(d) {
-          return d3.line()
-            .x(d => x(d.date))
-            .y(d => y(d.caseIncAvg))
-            (d.values)
-        })
+        return d3.line()
+          .x(d => x(d.date))
+          .y(d => y(d.caseIncAvg))
+          (d.values)
+      })
 
   // highlight closest line
   function getClosestDatumToPoint(data, date, caseVal) {
@@ -211,6 +213,15 @@ function renderTheData(data) {
 
     focus.select("circle.focus")
       .attr("transform", "translate(" + x(closestRow.date) + "," + y(closestRow.caseIncAvg) + ")");
+
+    linesTooltip
+      .html(
+        closestRow.caseIncAvg + "<br/>"  + closestRow.team + "<br/>" + closestRow.county + " County" +
+        "<br/>" + formatDate(closestRow.date)
+      )
+      .style("opacity", .9)
+      .style("left", (d3.event.pageX) + "px")
+      .style("top", (d3.event.pageY - 28) + "px");
   }
 }
 

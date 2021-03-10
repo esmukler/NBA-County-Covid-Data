@@ -16,3 +16,7 @@
     pointer-events: none;
     line-height: 15px;
 }
+
+.tooltip.lines {
+  height: 58px;
+}
