@@ -2400,6 +2400,35 @@ WAS,District of Columbia,District of Columbia,2021-05-04,10.62,002B5C
 NYK,New York City,New York,2021-05-04,15.52,#006BB6
 BKN,New York City,New York,2021-05-04,15.52,#000000
 ATL,Fulton,Georgia,2021-05-05,12.71,#E03A3E
+BOS,Suffolk,Massachusetts,2021-05-05,13.2,#007A33
+CHA,Mecklenburg,North Carolina,2021-05-05,17.71,#1D1160
+CHI,Cook,Illinois,2021-05-05,19.51,#CE1141
+CLE,Cuyahoga,Ohio,2021-05-05,17.98,#860038
+DAL,Dallas,Texas,2021-05-05,9.69,#00538C
+DEN,Denver,Colorado,2021-05-05,21.16,#0E2240
+DET,Wayne,Michigan,2021-05-05,34.53,#006BB6
+GSW,San Francisco,California,2021-05-05,3.13,#006BB6
+HOU,Harris,Texas,2021-05-05,7.3,#CE1141
+IND,Marion,Indiana,2021-05-05,18.49,#002D62
+LAC,Los Angeles,California,2021-05-05,2.84,#ED174C
+LAL,Los Angeles,California,2021-05-05,2.84,#552583
+MEM,Shelby,Tennessee,2021-05-05,14.69,#6189B9
+MIA,Miami-Dade,Florida,2021-05-05,32.53,#98002E
+MIL,Milwaukee,Wisconsin,2021-05-05,13.76,#00471b
+MIN,Hennepin,Minnesota,2021-05-05,22.15,#0c2340
+NO,Orleans,Louisiana,2021-05-05,5.26,#002b5c
+OKC,Oklahoma,Oklahoma,2021-05-05,6.86,#007AC1
+ORL,Orange,Florida,2021-05-05,23.19,#0057b8
+PHI,Philadelphia,Pennsylvania,2021-05-05,16.07,#006BB6
+PHX,Maricopa,Arizona,2021-05-05,12.44,#1D1160
+POR,Multnomah,Oregon,2021-05-05,18.75,#E03A3E
+SAC,Sacramento,California,2021-05-05,8.55,#5A2D81
+SAS,Bexar,Texas,2021-05-05,14.2,#000
+TOR,Hillsborough,Florida,2021-05-05,26.25,#CE1141
+UTA,Salt Lake,Utah,2021-05-05,11.72,#002B5C
+WAS,District of Columbia,District of Columbia,2021-05-05,10.48,002B5C
+NYK,New York City,New York,2021-05-05,15.29,#006BB6
+BKN,New York City,New York,2021-05-05,15.29,#000000
 ATL,Fulton,Georgia,2021-05-06,12.64,#E03A3E
 ATL,Fulton,Georgia,2021-05-07,12.28,#E03A3E
 ATL,Fulton,Georgia,2021-05-08,11.59,#E03A3E
@@ -2422,7 +2451,6 @@ ATL,Fulton,Georgia,2021-05-24,5.69,#E03A3E
 ATL,Fulton,Georgia,2021-05-25,5.35,#E03A3E
 ATL,Fulton,Georgia,2021-05-26,5.23,#E03A3E
 ATL,Fulton,Georgia,2021-05-27,4.0,#E03A3E
-BOS,Suffolk,Massachusetts,2021-05-05,13.2,#007A33
 BOS,Suffolk,Massachusetts,2021-05-06,12.61,#007A33
 BOS,Suffolk,Massachusetts,2021-05-07,12.09,#007A33
 BOS,Suffolk,Massachusetts,2021-05-08,11.87,#007A33
@@ -2445,7 +2473,6 @@ BOS,Suffolk,Massachusetts,2021-05-24,5.88,#007A33
 BOS,Suffolk,Massachusetts,2021-05-25,5.51,#007A33
 BOS,Suffolk,Massachusetts,2021-05-26,5.6,#007A33
 BOS,Suffolk,Massachusetts,2021-05-27,5.04,#007A33
-CHA,Mecklenburg,North Carolina,2021-05-05,17.71,#1D1160
 CHA,Mecklenburg,North Carolina,2021-05-06,16.55,#1D1160
 CHA,Mecklenburg,North Carolina,2021-05-07,16.59,#1D1160
 CHA,Mecklenburg,North Carolina,2021-05-08,16.59,#1D1160
@@ -2468,7 +2495,6 @@ CHA,Mecklenburg,North Carolina,2021-05-24,7.98,#1D1160
 CHA,Mecklenburg,North Carolina,2021-05-25,8.07,#1D1160
 CHA,Mecklenburg,North Carolina,2021-05-26,7.43,#1D1160
 CHA,Mecklenburg,North Carolina,2021-05-27,6.9,#1D1160
-CHI,Cook,Illinois,2021-05-05,19.51,#CE1141
 CHI,Cook,Illinois,2021-05-06,17.45,#CE1141
 CHI,Cook,Illinois,2021-05-07,18.01,#CE1141
 CHI,Cook,Illinois,2021-05-08,16.7,#CE1141
@@ -2491,7 +2517,6 @@ CHI,Cook,Illinois,2021-05-24,10.9,#CE1141
 CHI,Cook,Illinois,2021-05-25,10.13,#CE1141
 CHI,Cook,Illinois,2021-05-26,9.65,#CE1141
 CHI,Cook,Illinois,2021-05-27,8.96,#CE1141
-CLE,Cuyahoga,Ohio,2021-05-05,17.98,#860038
 CLE,Cuyahoga,Ohio,2021-05-06,16.86,#860038
 CLE,Cuyahoga,Ohio,2021-05-07,17.1,#860038
 CLE,Cuyahoga,Ohio,2021-05-08,16.08,#860038
@@ -2514,7 +2539,6 @@ CLE,Cuyahoga,Ohio,2021-05-24,11.15,#860038
 CLE,Cuyahoga,Ohio,2021-05-25,10.73,#860038
 CLE,Cuyahoga,Ohio,2021-05-26,10.62,#860038
 CLE,Cuyahoga,Ohio,2021-05-27,9.78,#860038
-DAL,Dallas,Texas,2021-05-05,9.69,#00538C
 DAL,Dallas,Texas,2021-05-06,8.92,#00538C
 DAL,Dallas,Texas,2021-05-07,8.76,#00538C
 DAL,Dallas,Texas,2021-05-08,8.06,#00538C
@@ -2537,7 +2561,6 @@ DAL,Dallas,Texas,2021-05-24,5.6,#00538C
 DAL,Dallas,Texas,2021-05-25,4.02,#00538C
 DAL,Dallas,Texas,2021-05-26,4.46,#00538C
 DAL,Dallas,Texas,2021-05-27,3.58,#00538C
-DEN,Denver,Colorado,2021-05-05,21.16,#0E2240
 DEN,Denver,Colorado,2021-05-06,18.53,#0E2240
 DEN,Denver,Colorado,2021-05-07,18.49,#0E2240
 DEN,Denver,Colorado,2021-05-08,17.74,#0E2240
@@ -2560,7 +2583,6 @@ DEN,Denver,Colorado,2021-05-24,7.21,#0E2240
 DEN,Denver,Colorado,2021-05-25,7.71,#0E2240
 DEN,Denver,Colorado,2021-05-26,7.88,#0E2240
 DEN,Denver,Colorado,2021-05-27,7.07,#0E2240
-DET,Wayne,Michigan,2021-05-05,34.53,#006BB6
 DET,Wayne,Michigan,2021-05-06,34.06,#006BB6
 DET,Wayne,Michigan,2021-05-07,32.6,#006BB6
 DET,Wayne,Michigan,2021-05-08,30.49,#006BB6
@@ -2583,7 +2605,6 @@ DET,Wayne,Michigan,2021-05-24,12.11,#006BB6
 DET,Wayne,Michigan,2021-05-25,11.34,#006BB6
 DET,Wayne,Michigan,2021-05-26,10.55,#006BB6
 DET,Wayne,Michigan,2021-05-27,9.56,#006BB6
-GSW,San Francisco,California,2021-05-05,3.13,#006BB6
 GSW,San Francisco,California,2021-05-06,3.18,#006BB6
 GSW,San Francisco,California,2021-05-07,3.05,#006BB6
 GSW,San Francisco,California,2021-05-08,2.66,#006BB6
@@ -2606,7 +2627,6 @@ GSW,San Francisco,California,2021-05-24,1.94,#006BB6
 GSW,San Francisco,California,2021-05-25,1.93,#006BB6
 GSW,San Francisco,California,2021-05-26,1.98,#006BB6
 GSW,San Francisco,California,2021-05-27,1.94,#006BB6
-HOU,Harris,Texas,2021-05-05,7.3,#CE1141
 HOU,Harris,Texas,2021-05-06,6.99,#CE1141
 HOU,Harris,Texas,2021-05-07,7.49,#CE1141
 HOU,Harris,Texas,2021-05-08,7.17,#CE1141
@@ -2629,7 +2649,6 @@ HOU,Harris,Texas,2021-05-24,6.21,#CE1141
 HOU,Harris,Texas,2021-05-25,6.48,#CE1141
 HOU,Harris,Texas,2021-05-26,6.31,#CE1141
 HOU,Harris,Texas,2021-05-27,6.92,#CE1141
-IND,Marion,Indiana,2021-05-05,18.49,#002D62
 IND,Marion,Indiana,2021-05-06,18.29,#002D62
 IND,Marion,Indiana,2021-05-07,18.53,#002D62
 IND,Marion,Indiana,2021-05-08,18.53,#002D62
@@ -2652,7 +2671,6 @@ IND,Marion,Indiana,2021-05-24,10.66,#002D62
 IND,Marion,Indiana,2021-05-25,10.93,#002D62
 IND,Marion,Indiana,2021-05-26,10.58,#002D62
 IND,Marion,Indiana,2021-05-27,9.73,#002D62
-LAC,Los Angeles,California,2021-05-05,2.84,#ED174C
 LAC,Los Angeles,California,2021-05-06,3.37,#ED174C
 LAC,Los Angeles,California,2021-05-07,2.92,#ED174C
 LAC,Los Angeles,California,2021-05-08,2.74,#ED174C
@@ -2675,7 +2693,6 @@ LAC,Los Angeles,California,2021-05-24,1.93,#ED174C
 LAC,Los Angeles,California,2021-05-25,2.0,#ED174C
 LAC,Los Angeles,California,2021-05-26,1.96,#ED174C
 LAC,Los Angeles,California,2021-05-27,7.37,#ED174C
-LAL,Los Angeles,California,2021-05-05,2.84,#552583
 LAL,Los Angeles,California,2021-05-06,3.37,#552583
 LAL,Los Angeles,California,2021-05-07,2.92,#552583
 LAL,Los Angeles,California,2021-05-08,2.74,#552583
@@ -2698,7 +2715,6 @@ LAL,Los Angeles,California,2021-05-24,1.93,#552583
 LAL,Los Angeles,California,2021-05-25,2.0,#552583
 LAL,Los Angeles,California,2021-05-26,1.96,#552583
 LAL,Los Angeles,California,2021-05-27,7.37,#552583
-MEM,Shelby,Tennessee,2021-05-05,14.69,#6189B9
 MEM,Shelby,Tennessee,2021-05-06,14.63,#6189B9
 MEM,Shelby,Tennessee,2021-05-07,14.14,#6189B9
 MEM,Shelby,Tennessee,2021-05-08,13.94,#6189B9
@@ -2721,7 +2737,6 @@ MEM,Shelby,Tennessee,2021-05-24,10.45,#6189B9
 MEM,Shelby,Tennessee,2021-05-25,10.57,#6189B9
 MEM,Shelby,Tennessee,2021-05-26,10.74,#6189B9
 MEM,Shelby,Tennessee,2021-05-27,10.25,#6189B9
-MIA,Miami-Dade,Florida,2021-05-05,32.53,#98002E
 MIA,Miami-Dade,Florida,2021-05-06,31.01,#98002E
 MIA,Miami-Dade,Florida,2021-05-07,29.86,#98002E
 MIA,Miami-Dade,Florida,2021-05-08,28.18,#98002E
@@ -2744,7 +2759,6 @@ MIA,Miami-Dade,Florida,2021-05-24,18.98,#98002E
 MIA,Miami-Dade,Florida,2021-05-25,17.36,#98002E
 MIA,Miami-Dade,Florida,2021-05-26,16.35,#98002E
 MIA,Miami-Dade,Florida,2021-05-27,15.85,#98002E
-MIL,Milwaukee,Wisconsin,2021-05-05,13.76,#00471b
 MIL,Milwaukee,Wisconsin,2021-05-06,13.83,#00471b
 MIL,Milwaukee,Wisconsin,2021-05-07,13.01,#00471b
 MIL,Milwaukee,Wisconsin,2021-05-08,12.22,#00471b
@@ -2767,7 +2781,6 @@ MIL,Milwaukee,Wisconsin,2021-05-24,7.13,#00471b
 MIL,Milwaukee,Wisconsin,2021-05-25,7.28,#00471b
 MIL,Milwaukee,Wisconsin,2021-05-26,7.06,#00471b
 MIL,Milwaukee,Wisconsin,2021-05-27,5.99,#00471b
-MIN,Hennepin,Minnesota,2021-05-05,22.15,#0c2340
 MIN,Hennepin,Minnesota,2021-05-06,21.84,#0c2340
 MIN,Hennepin,Minnesota,2021-05-07,21.27,#0c2340
 MIN,Hennepin,Minnesota,2021-05-08,20.49,#0c2340
@@ -2790,7 +2803,6 @@ MIN,Hennepin,Minnesota,2021-05-24,8.5,#0c2340
 MIN,Hennepin,Minnesota,2021-05-25,8.14,#0c2340
 MIN,Hennepin,Minnesota,2021-05-26,7.82,#0c2340
 MIN,Hennepin,Minnesota,2021-05-27,7.24,#0c2340
-NO,Orleans,Louisiana,2021-05-05,5.26,#002b5c
 NO,Orleans,Louisiana,2021-05-06,5.74,#002b5c
 NO,Orleans,Louisiana,2021-05-07,5.37,#002b5c
 NO,Orleans,Louisiana,2021-05-08,5.37,#002b5c
@@ -2813,7 +2825,6 @@ NO,Orleans,Louisiana,2021-05-24,4.61,#002b5c
 NO,Orleans,Louisiana,2021-05-25,5.74,#002b5c
 NO,Orleans,Louisiana,2021-05-26,5.15,#002b5c
 NO,Orleans,Louisiana,2021-05-27,4.68,#002b5c
-OKC,Oklahoma,Oklahoma,2021-05-05,6.86,#007AC1
 OKC,Oklahoma,Oklahoma,2021-05-06,6.86,#007AC1
 OKC,Oklahoma,Oklahoma,2021-05-07,6.86,#007AC1
 OKC,Oklahoma,Oklahoma,2021-05-08,6.86,#007AC1
@@ -2836,7 +2847,6 @@ OKC,Oklahoma,Oklahoma,2021-05-24,4.55,#007AC1
 OKC,Oklahoma,Oklahoma,2021-05-25,4.55,#007AC1
 OKC,Oklahoma,Oklahoma,2021-05-26,4.01,#007AC1
 OKC,Oklahoma,Oklahoma,2021-05-27,4.01,#007AC1
-ORL,Orange,Florida,2021-05-05,23.19,#0057b8
 ORL,Orange,Florida,2021-05-06,22.92,#0057b8
 ORL,Orange,Florida,2021-05-07,22.09,#0057b8
 ORL,Orange,Florida,2021-05-08,21.82,#0057b8
@@ -2859,7 +2869,6 @@ ORL,Orange,Florida,2021-05-24,12.51,#0057b8
 ORL,Orange,Florida,2021-05-25,12.14,#0057b8
 ORL,Orange,Florida,2021-05-26,12.29,#0057b8
 ORL,Orange,Florida,2021-05-27,12.03,#0057b8
-PHI,Philadelphia,Pennsylvania,2021-05-05,16.07,#006BB6
 PHI,Philadelphia,Pennsylvania,2021-05-06,21.8,#006BB6
 PHI,Philadelphia,Pennsylvania,2021-05-07,18.52,#006BB6
 PHI,Philadelphia,Pennsylvania,2021-05-08,18.52,#006BB6
@@ -2882,7 +2891,6 @@ PHI,Philadelphia,Pennsylvania,2021-05-24,9.73,#006BB6
 PHI,Philadelphia,Pennsylvania,2021-05-25,9.73,#006BB6
 PHI,Philadelphia,Pennsylvania,2021-05-26,9.73,#006BB6
 PHI,Philadelphia,Pennsylvania,2021-05-27,9.11,#006BB6
-PHX,Maricopa,Arizona,2021-05-05,12.44,#1D1160
 PHX,Maricopa,Arizona,2021-05-06,11.46,#1D1160
 PHX,Maricopa,Arizona,2021-05-07,11.36,#1D1160
 PHX,Maricopa,Arizona,2021-05-08,10.9,#1D1160
@@ -2905,7 +2913,6 @@ PHX,Maricopa,Arizona,2021-05-24,8.56,#1D1160
 PHX,Maricopa,Arizona,2021-05-25,8.38,#1D1160
 PHX,Maricopa,Arizona,2021-05-26,8.73,#1D1160
 PHX,Maricopa,Arizona,2021-05-27,9.22,#1D1160
-POR,Multnomah,Oregon,2021-05-05,18.75,#E03A3E
 POR,Multnomah,Oregon,2021-05-06,17.6,#E03A3E
 POR,Multnomah,Oregon,2021-05-07,17.86,#E03A3E
 POR,Multnomah,Oregon,2021-05-08,17.24,#E03A3E
@@ -2928,7 +2935,6 @@ POR,Multnomah,Oregon,2021-05-24,7.6,#E03A3E
 POR,Multnomah,Oregon,2021-05-25,7.6,#E03A3E
 POR,Multnomah,Oregon,2021-05-26,8.01,#E03A3E
 POR,Multnomah,Oregon,2021-05-27,7.51,#E03A3E
-SAC,Sacramento,California,2021-05-05,8.55,#5A2D81
 SAC,Sacramento,California,2021-05-06,11.85,#5A2D81
 SAC,Sacramento,California,2021-05-07,11.4,#5A2D81
 SAC,Sacramento,California,2021-05-08,11.4,#5A2D81
@@ -2951,7 +2957,6 @@ SAC,Sacramento,California,2021-05-24,6.38,#5A2D81
 SAC,Sacramento,California,2021-05-25,6.83,#5A2D81
 SAC,Sacramento,California,2021-05-26,6.27,#5A2D81
 SAC,Sacramento,California,2021-05-27,5.74,#5A2D81
-SAS,Bexar,Texas,2021-05-05,14.2,#000
 SAS,Bexar,Texas,2021-05-06,13.09,#000
 SAS,Bexar,Texas,2021-05-07,11.96,#000
 SAS,Bexar,Texas,2021-05-08,11.96,#000
@@ -2974,7 +2979,6 @@ SAS,Bexar,Texas,2021-05-24,9.15,#000
 SAS,Bexar,Texas,2021-05-25,9.03,#000
 SAS,Bexar,Texas,2021-05-26,8.05,#000
 SAS,Bexar,Texas,2021-05-27,8.46,#000
-TOR,Hillsborough,Florida,2021-05-05,26.25,#CE1141
 TOR,Hillsborough,Florida,2021-05-06,25.64,#CE1141
 TOR,Hillsborough,Florida,2021-05-07,23.84,#CE1141
 TOR,Hillsborough,Florida,2021-05-08,22.55,#CE1141
@@ -2997,7 +3001,6 @@ TOR,Hillsborough,Florida,2021-05-24,16.14,#CE1141
 TOR,Hillsborough,Florida,2021-05-25,15.17,#CE1141
 TOR,Hillsborough,Florida,2021-05-26,14.39,#CE1141
 TOR,Hillsborough,Florida,2021-05-27,14.07,#CE1141
-UTA,Salt Lake,Utah,2021-05-05,11.72,#002B5C
 UTA,Salt Lake,Utah,2021-05-06,11.27,#002B5C
 UTA,Salt Lake,Utah,2021-05-07,11.1,#002B5C
 UTA,Salt Lake,Utah,2021-05-08,10.85,#002B5C
@@ -3020,7 +3023,6 @@ UTA,Salt Lake,Utah,2021-05-24,7.88,#002B5C
 UTA,Salt Lake,Utah,2021-05-25,7.41,#002B5C
 UTA,Salt Lake,Utah,2021-05-26,6.87,#002B5C
 UTA,Salt Lake,Utah,2021-05-27,7.15,#002B5C
-WAS,District of Columbia,District of Columbia,2021-05-05,10.48,002B5C
 WAS,District of Columbia,District of Columbia,2021-05-06,9.61,002B5C
 WAS,District of Columbia,District of Columbia,2021-05-07,9.05,002B5C
 WAS,District of Columbia,District of Columbia,2021-05-08,7.51,002B5C
@@ -3043,7 +3045,6 @@ WAS,District of Columbia,District of Columbia,2021-05-24,3.55,002B5C
 WAS,District of Columbia,District of Columbia,2021-05-25,3.86,002B5C
 WAS,District of Columbia,District of Columbia,2021-05-26,3.88,002B5C
 WAS,District of Columbia,District of Columbia,2021-05-27,3.75,002B5C
-NYK,New York City,New York,2021-05-05,15.29,#006BB6
 NYK,New York City,New York,2021-05-06,14.77,#006BB6
 NYK,New York City,New York,2021-05-07,13.79,#006BB6
 NYK,New York City,New York,2021-05-08,12.76,#006BB6
@@ -3066,7 +3067,6 @@ NYK,New York City,New York,2021-05-24,6.49,#006BB6
 NYK,New York City,New York,2021-05-25,5.71,#006BB6
 NYK,New York City,New York,2021-05-26,5.59,#006BB6
 NYK,New York City,New York,2021-05-27,5.39,#006BB6
-BKN,New York City,New York,2021-05-05,15.29,#000000
 BKN,New York City,New York,2021-05-06,14.77,#000000
 BKN,New York City,New York,2021-05-07,13.79,#000000
 BKN,New York City,New York,2021-05-08,12.76,#000000
