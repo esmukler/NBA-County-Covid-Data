@@ -11550,6 +11550,35 @@ WAS,District of Columbia,District of Columbia,2022-03-11,11.24,002B5C
 NYK,New York City,New York,2022-03-11,8.24,#006BB6
 BKN,New York City,New York,2022-03-11,8.24,#000000
 ATL,Fulton,Georgia,2022-03-12,5.79,#E03A3E
+BOS,Suffolk,Massachusetts,2022-03-12,11.93,#007A33
+CHA,Mecklenburg,North Carolina,2022-03-12,9.0,#1D1160
+CHI,Cook,Illinois,2022-03-12,10.48,#CE1141
+CLE,Cuyahoga,Ohio,2022-03-12,4.24,#860038
+DAL,Dallas,Texas,2022-03-12,7.0,#00538C
+DEN,Denver,Colorado,2022-03-12,15.21,#0E2240
+DET,Wayne,Michigan,2022-03-12,7.92,#006BB6
+GSW,San Francisco,California,2022-03-12,0.24,#006BB6
+HOU,Harris,Texas,2022-03-12,6.03,#CE1141
+IND,Marion,Indiana,2022-03-12,11.05,#002D62
+LAC,Los Angeles,California,2022-03-12,11.89,#ED174C
+LAL,Los Angeles,California,2022-03-12,11.89,#552583
+MEM,Shelby,Tennessee,2022-03-12,4.84,#6189B9
+MIA,Miami-Dade,Florida,2022-03-12,8.79,#98002E
+MIL,Milwaukee,Wisconsin,2022-03-12,5.87,#00471b
+MIN,Hennepin,Minnesota,2022-03-12,13.81,#0c2340
+NO,Orleans,Louisiana,2022-03-12,12.39,#002b5c
+OKC,Oklahoma,Oklahoma,2022-03-12,31.99,#007AC1
+ORL,Orange,Florida,2022-03-12,9.04,#0057b8
+PHI,Philadelphia,Pennsylvania,2022-03-12,7.98,#006BB6
+PHX,Maricopa,Arizona,2022-03-12,14.74,#1D1160
+POR,Multnomah,Oregon,2022-03-12,9.3,#E03A3E
+SAC,Sacramento,California,2022-03-12,10.64,#5A2D81
+SAS,Bexar,Texas,2022-03-12,27.98,#000
+TOR,Hillsborough,Florida,2022-03-12,6.64,#CE1141
+UTA,Salt Lake,Utah,2022-03-12,6.34,#002B5C
+WAS,District of Columbia,District of Columbia,2022-03-12,11.24,002B5C
+NYK,New York City,New York,2022-03-12,8.24,#006BB6
+BKN,New York City,New York,2022-03-12,8.24,#000000
 ATL,Fulton,Georgia,2022-03-13,5.79,#E03A3E
 ATL,Fulton,Georgia,2022-03-14,4.78,#E03A3E
 ATL,Fulton,Georgia,2022-03-15,5.39,#E03A3E
@@ -11572,7 +11601,7 @@ ATL,Fulton,Georgia,2022-03-31,38.38,#E03A3E
 ATL,Fulton,Georgia,2022-04-01,38.58,#E03A3E
 ATL,Fulton,Georgia,2022-04-02,38.58,#E03A3E
 ATL,Fulton,Georgia,2022-04-03,38.58,#E03A3E
-BOS,Suffolk,Massachusetts,2022-03-12,11.93,#007A33
+ATL,Fulton,Georgia,2022-04-04,38.29,#E03A3E
 BOS,Suffolk,Massachusetts,2022-03-13,11.93,#007A33
 BOS,Suffolk,Massachusetts,2022-03-14,12.03,#007A33
 BOS,Suffolk,Massachusetts,2022-03-15,11.69,#007A33
@@ -11595,7 +11624,7 @@ BOS,Suffolk,Massachusetts,2022-03-31,22.69,#007A33
 BOS,Suffolk,Massachusetts,2022-04-01,24.87,#007A33
 BOS,Suffolk,Massachusetts,2022-04-02,24.87,#007A33
 BOS,Suffolk,Massachusetts,2022-04-03,24.87,#007A33
-CHA,Mecklenburg,North Carolina,2022-03-12,9.0,#1D1160
+BOS,Suffolk,Massachusetts,2022-04-04,26.79,#007A33
 CHA,Mecklenburg,North Carolina,2022-03-13,9.0,#1D1160
 CHA,Mecklenburg,North Carolina,2022-03-14,8.52,#1D1160
 CHA,Mecklenburg,North Carolina,2022-03-15,8.22,#1D1160
@@ -11618,7 +11647,7 @@ CHA,Mecklenburg,North Carolina,2022-03-31,5.85,#1D1160
 CHA,Mecklenburg,North Carolina,2022-04-01,6.05,#1D1160
 CHA,Mecklenburg,North Carolina,2022-04-02,6.05,#1D1160
 CHA,Mecklenburg,North Carolina,2022-04-03,6.05,#1D1160
-CHI,Cook,Illinois,2022-03-12,10.48,#CE1141
+CHA,Mecklenburg,North Carolina,2022-04-04,6.0,#1D1160
 CHI,Cook,Illinois,2022-03-13,10.48,#CE1141
 CHI,Cook,Illinois,2022-03-14,10.46,#CE1141
 CHI,Cook,Illinois,2022-03-15,11.12,#CE1141
@@ -11641,7 +11670,7 @@ CHI,Cook,Illinois,2022-03-31,11.12,#CE1141
 CHI,Cook,Illinois,2022-04-01,11.25,#CE1141
 CHI,Cook,Illinois,2022-04-02,11.25,#CE1141
 CHI,Cook,Illinois,2022-04-03,11.25,#CE1141
-CLE,Cuyahoga,Ohio,2022-03-12,4.24,#860038
+CHI,Cook,Illinois,2022-04-04,12.02,#CE1141
 CLE,Cuyahoga,Ohio,2022-03-13,3.97,#860038
 CLE,Cuyahoga,Ohio,2022-03-14,3.29,#860038
 CLE,Cuyahoga,Ohio,2022-03-15,2.52,#860038
@@ -11664,7 +11693,7 @@ CLE,Cuyahoga,Ohio,2022-03-31,4.81,#860038
 CLE,Cuyahoga,Ohio,2022-04-01,4.81,#860038
 CLE,Cuyahoga,Ohio,2022-04-02,4.81,#860038
 CLE,Cuyahoga,Ohio,2022-04-03,4.81,#860038
-DAL,Dallas,Texas,2022-03-12,7.0,#00538C
+CLE,Cuyahoga,Ohio,2022-04-04,4.81,#860038
 DAL,Dallas,Texas,2022-03-13,8.21,#00538C
 DAL,Dallas,Texas,2022-03-14,7.57,#00538C
 DAL,Dallas,Texas,2022-03-15,6.44,#00538C
@@ -11687,7 +11716,7 @@ DAL,Dallas,Texas,2022-03-31,5.1,#00538C
 DAL,Dallas,Texas,2022-04-01,5.12,#00538C
 DAL,Dallas,Texas,2022-04-02,5.34,#00538C
 DAL,Dallas,Texas,2022-04-03,5.53,#00538C
-DEN,Denver,Colorado,2022-03-12,15.21,#0E2240
+DAL,Dallas,Texas,2022-04-04,5.68,#00538C
 DEN,Denver,Colorado,2022-03-13,15.21,#0E2240
 DEN,Denver,Colorado,2022-03-14,14.27,#0E2240
 DEN,Denver,Colorado,2022-03-15,15.75,#0E2240
@@ -11710,7 +11739,7 @@ DEN,Denver,Colorado,2022-03-31,21.38,#0E2240
 DEN,Denver,Colorado,2022-04-01,17.86,#0E2240
 DEN,Denver,Colorado,2022-04-02,17.86,#0E2240
 DEN,Denver,Colorado,2022-04-03,17.86,#0E2240
-DET,Wayne,Michigan,2022-03-12,7.92,#006BB6
+DEN,Denver,Colorado,2022-04-04,17.92,#0E2240
 DET,Wayne,Michigan,2022-03-13,7.92,#006BB6
 DET,Wayne,Michigan,2022-03-14,8.5,#006BB6
 DET,Wayne,Michigan,2022-03-15,8.5,#006BB6
@@ -11733,7 +11762,7 @@ DET,Wayne,Michigan,2022-03-31,9.39,#006BB6
 DET,Wayne,Michigan,2022-04-01,8.92,#006BB6
 DET,Wayne,Michigan,2022-04-02,8.92,#006BB6
 DET,Wayne,Michigan,2022-04-03,8.92,#006BB6
-GSW,San Francisco,California,2022-03-12,0.24,#006BB6
+DET,Wayne,Michigan,2022-04-04,6.41,#006BB6
 GSW,San Francisco,California,2022-03-13,0.24,#006BB6
 GSW,San Francisco,California,2022-03-14,-2.91,#006BB6
 GSW,San Francisco,California,2022-03-15,-2.25,#006BB6
@@ -11756,7 +11785,7 @@ GSW,San Francisco,California,2022-03-31,14.34,#006BB6
 GSW,San Francisco,California,2022-04-01,14.17,#006BB6
 GSW,San Francisco,California,2022-04-02,14.17,#006BB6
 GSW,San Francisco,California,2022-04-03,14.17,#006BB6
-HOU,Harris,Texas,2022-03-12,6.03,#CE1141
+GSW,San Francisco,California,2022-04-04,8.39,#006BB6
 HOU,Harris,Texas,2022-03-13,6.32,#CE1141
 HOU,Harris,Texas,2022-03-14,5.69,#CE1141
 HOU,Harris,Texas,2022-03-15,5.55,#CE1141
@@ -11779,7 +11808,7 @@ HOU,Harris,Texas,2022-03-31,10.62,#CE1141
 HOU,Harris,Texas,2022-04-01,7.4,#CE1141
 HOU,Harris,Texas,2022-04-02,9.09,#CE1141
 HOU,Harris,Texas,2022-04-03,9.45,#CE1141
-IND,Marion,Indiana,2022-03-12,11.05,#002D62
+HOU,Harris,Texas,2022-04-04,9.59,#CE1141
 IND,Marion,Indiana,2022-03-13,11.05,#002D62
 IND,Marion,Indiana,2022-03-14,3.41,#002D62
 IND,Marion,Indiana,2022-03-15,3.23,#002D62
@@ -11802,7 +11831,7 @@ IND,Marion,Indiana,2022-03-31,1.74,#002D62
 IND,Marion,Indiana,2022-04-01,1.34,#002D62
 IND,Marion,Indiana,2022-04-02,1.34,#002D62
 IND,Marion,Indiana,2022-04-03,1.34,#002D62
-LAC,Los Angeles,California,2022-03-12,11.89,#ED174C
+IND,Marion,Indiana,2022-04-04,0.35,#002D62
 LAC,Los Angeles,California,2022-03-13,11.89,#ED174C
 LAC,Los Angeles,California,2022-03-14,12.14,#ED174C
 LAC,Los Angeles,California,2022-03-15,11.99,#ED174C
@@ -11825,7 +11854,7 @@ LAC,Los Angeles,California,2022-03-31,7.66,#ED174C
 LAC,Los Angeles,California,2022-04-01,7.41,#ED174C
 LAC,Los Angeles,California,2022-04-02,6.05,#ED174C
 LAC,Los Angeles,California,2022-04-03,6.05,#ED174C
-LAL,Los Angeles,California,2022-03-12,11.89,#552583
+LAC,Los Angeles,California,2022-04-04,7.8,#ED174C
 LAL,Los Angeles,California,2022-03-13,11.89,#552583
 LAL,Los Angeles,California,2022-03-14,12.14,#552583
 LAL,Los Angeles,California,2022-03-15,11.99,#552583
@@ -11848,7 +11877,7 @@ LAL,Los Angeles,California,2022-03-31,7.66,#552583
 LAL,Los Angeles,California,2022-04-01,7.41,#552583
 LAL,Los Angeles,California,2022-04-02,6.05,#552583
 LAL,Los Angeles,California,2022-04-03,6.05,#552583
-MEM,Shelby,Tennessee,2022-03-12,4.84,#6189B9
+LAL,Los Angeles,California,2022-04-04,7.8,#552583
 MEM,Shelby,Tennessee,2022-03-13,4.04,#6189B9
 MEM,Shelby,Tennessee,2022-03-14,3.6,#6189B9
 MEM,Shelby,Tennessee,2022-03-15,3.43,#6189B9
@@ -11871,7 +11900,7 @@ MEM,Shelby,Tennessee,2022-03-31,2.24,#6189B9
 MEM,Shelby,Tennessee,2022-04-01,2.84,#6189B9
 MEM,Shelby,Tennessee,2022-04-02,3.4,#6189B9
 MEM,Shelby,Tennessee,2022-04-03,4.04,#6189B9
-MIA,Miami-Dade,Florida,2022-03-12,8.79,#98002E
+MEM,Shelby,Tennessee,2022-04-04,3.86,#6189B9
 MIA,Miami-Dade,Florida,2022-03-13,8.79,#98002E
 MIA,Miami-Dade,Florida,2022-03-14,8.79,#98002E
 MIA,Miami-Dade,Florida,2022-03-15,8.79,#98002E
@@ -11894,7 +11923,7 @@ MIA,Miami-Dade,Florida,2022-03-31,16.56,#98002E
 MIA,Miami-Dade,Florida,2022-04-01,0.0,#98002E
 MIA,Miami-Dade,Florida,2022-04-02,0.0,#98002E
 MIA,Miami-Dade,Florida,2022-04-03,0.0,#98002E
-MIL,Milwaukee,Wisconsin,2022-03-12,5.87,#00471b
+MIA,Miami-Dade,Florida,2022-04-04,0.0,#98002E
 MIL,Milwaukee,Wisconsin,2022-03-13,5.87,#00471b
 MIL,Milwaukee,Wisconsin,2022-03-14,5.45,#00471b
 MIL,Milwaukee,Wisconsin,2022-03-15,5.72,#00471b
@@ -11917,7 +11946,7 @@ MIL,Milwaukee,Wisconsin,2022-03-31,6.77,#00471b
 MIL,Milwaukee,Wisconsin,2022-04-01,7.46,#00471b
 MIL,Milwaukee,Wisconsin,2022-04-02,7.46,#00471b
 MIL,Milwaukee,Wisconsin,2022-04-03,7.46,#00471b
-MIN,Hennepin,Minnesota,2022-03-12,13.81,#0c2340
+MIL,Milwaukee,Wisconsin,2022-04-04,7.91,#00471b
 MIN,Hennepin,Minnesota,2022-03-13,13.81,#0c2340
 MIN,Hennepin,Minnesota,2022-03-14,13.52,#0c2340
 MIN,Hennepin,Minnesota,2022-03-15,11.64,#0c2340
@@ -11940,7 +11969,7 @@ MIN,Hennepin,Minnesota,2022-03-31,8.89,#0c2340
 MIN,Hennepin,Minnesota,2022-04-01,9.28,#0c2340
 MIN,Hennepin,Minnesota,2022-04-02,9.28,#0c2340
 MIN,Hennepin,Minnesota,2022-04-03,9.28,#0c2340
-NO,Orleans,Louisiana,2022-03-12,12.39,#002b5c
+MIN,Hennepin,Minnesota,2022-04-04,9.44,#0c2340
 NO,Orleans,Louisiana,2022-03-13,12.39,#002b5c
 NO,Orleans,Louisiana,2022-03-14,12.35,#002b5c
 NO,Orleans,Louisiana,2022-03-15,11.95,#002b5c
@@ -11963,7 +11992,7 @@ NO,Orleans,Louisiana,2022-03-31,5.08,#002b5c
 NO,Orleans,Louisiana,2022-04-01,4.72,#002b5c
 NO,Orleans,Louisiana,2022-04-02,4.72,#002b5c
 NO,Orleans,Louisiana,2022-04-03,4.72,#002b5c
-OKC,Oklahoma,Oklahoma,2022-03-12,31.99,#007AC1
+NO,Orleans,Louisiana,2022-04-04,5.01,#002b5c
 OKC,Oklahoma,Oklahoma,2022-03-13,31.99,#007AC1
 OKC,Oklahoma,Oklahoma,2022-03-14,31.99,#007AC1
 OKC,Oklahoma,Oklahoma,2022-03-15,31.99,#007AC1
@@ -11986,7 +12015,7 @@ OKC,Oklahoma,Oklahoma,2022-03-31,8.67,#007AC1
 OKC,Oklahoma,Oklahoma,2022-04-01,8.67,#007AC1
 OKC,Oklahoma,Oklahoma,2022-04-02,8.67,#007AC1
 OKC,Oklahoma,Oklahoma,2022-04-03,8.67,#007AC1
-ORL,Orange,Florida,2022-03-12,9.04,#0057b8
+OKC,Oklahoma,Oklahoma,2022-04-04,8.67,#007AC1
 ORL,Orange,Florida,2022-03-13,9.04,#0057b8
 ORL,Orange,Florida,2022-03-14,9.04,#0057b8
 ORL,Orange,Florida,2022-03-15,9.04,#0057b8
@@ -12009,7 +12038,7 @@ ORL,Orange,Florida,2022-03-31,14.79,#0057b8
 ORL,Orange,Florida,2022-04-01,0.0,#0057b8
 ORL,Orange,Florida,2022-04-02,0.0,#0057b8
 ORL,Orange,Florida,2022-04-03,0.0,#0057b8
-PHI,Philadelphia,Pennsylvania,2022-03-12,7.98,#006BB6
+ORL,Orange,Florida,2022-04-04,0.0,#0057b8
 PHI,Philadelphia,Pennsylvania,2022-03-13,7.98,#006BB6
 PHI,Philadelphia,Pennsylvania,2022-03-14,7.52,#006BB6
 PHI,Philadelphia,Pennsylvania,2022-03-15,4.68,#006BB6
@@ -12032,7 +12061,7 @@ PHI,Philadelphia,Pennsylvania,2022-03-31,5.89,#006BB6
 PHI,Philadelphia,Pennsylvania,2022-04-01,6.3,#006BB6
 PHI,Philadelphia,Pennsylvania,2022-04-02,5.22,#006BB6
 PHI,Philadelphia,Pennsylvania,2022-04-03,4.51,#006BB6
-PHX,Maricopa,Arizona,2022-03-12,14.74,#1D1160
+PHI,Philadelphia,Pennsylvania,2022-04-04,6.47,#006BB6
 PHX,Maricopa,Arizona,2022-03-13,14.74,#1D1160
 PHX,Maricopa,Arizona,2022-03-14,14.74,#1D1160
 PHX,Maricopa,Arizona,2022-03-15,14.74,#1D1160
@@ -12055,7 +12084,7 @@ PHX,Maricopa,Arizona,2022-03-31,27.33,#1D1160
 PHX,Maricopa,Arizona,2022-04-01,27.33,#1D1160
 PHX,Maricopa,Arizona,2022-04-02,27.33,#1D1160
 PHX,Maricopa,Arizona,2022-04-03,27.33,#1D1160
-POR,Multnomah,Oregon,2022-03-12,9.3,#E03A3E
+PHX,Maricopa,Arizona,2022-04-04,27.33,#1D1160
 POR,Multnomah,Oregon,2022-03-13,9.3,#E03A3E
 POR,Multnomah,Oregon,2022-03-14,8.36,#E03A3E
 POR,Multnomah,Oregon,2022-03-15,8.7,#E03A3E
@@ -12078,7 +12107,7 @@ POR,Multnomah,Oregon,2022-03-31,9.06,#E03A3E
 POR,Multnomah,Oregon,2022-04-01,10.23,#E03A3E
 POR,Multnomah,Oregon,2022-04-02,10.23,#E03A3E
 POR,Multnomah,Oregon,2022-04-03,10.23,#E03A3E
-SAC,Sacramento,California,2022-03-12,10.64,#5A2D81
+POR,Multnomah,Oregon,2022-04-04,10.95,#E03A3E
 SAC,Sacramento,California,2022-03-13,10.64,#5A2D81
 SAC,Sacramento,California,2022-03-14,8.28,#5A2D81
 SAC,Sacramento,California,2022-03-15,6.62,#5A2D81
@@ -12101,7 +12130,7 @@ SAC,Sacramento,California,2022-03-31,6.83,#5A2D81
 SAC,Sacramento,California,2022-04-01,6.89,#5A2D81
 SAC,Sacramento,California,2022-04-02,6.89,#5A2D81
 SAC,Sacramento,California,2022-04-03,6.89,#5A2D81
-SAS,Bexar,Texas,2022-03-12,27.98,#000
+SAC,Sacramento,California,2022-04-04,3.84,#5A2D81
 SAS,Bexar,Texas,2022-03-13,28.23,#000
 SAS,Bexar,Texas,2022-03-14,27.21,#000
 SAS,Bexar,Texas,2022-03-15,24.07,#000
@@ -12124,7 +12153,7 @@ SAS,Bexar,Texas,2022-03-31,25.56,#000
 SAS,Bexar,Texas,2022-04-01,23.58,#000
 SAS,Bexar,Texas,2022-04-02,6.77,#000
 SAS,Bexar,Texas,2022-04-03,7.2,#000
-TOR,Hillsborough,Florida,2022-03-12,6.64,#CE1141
+SAS,Bexar,Texas,2022-04-04,7.66,#000
 TOR,Hillsborough,Florida,2022-03-13,6.64,#CE1141
 TOR,Hillsborough,Florida,2022-03-14,6.64,#CE1141
 TOR,Hillsborough,Florida,2022-03-15,6.64,#CE1141
@@ -12147,7 +12176,7 @@ TOR,Hillsborough,Florida,2022-03-31,11.79,#CE1141
 TOR,Hillsborough,Florida,2022-04-01,0.0,#CE1141
 TOR,Hillsborough,Florida,2022-04-02,0.0,#CE1141
 TOR,Hillsborough,Florida,2022-04-03,0.0,#CE1141
-UTA,Salt Lake,Utah,2022-03-12,6.34,#002B5C
+TOR,Hillsborough,Florida,2022-04-04,0.0,#CE1141
 UTA,Salt Lake,Utah,2022-03-13,6.34,#002B5C
 UTA,Salt Lake,Utah,2022-03-14,5.31,#002B5C
 UTA,Salt Lake,Utah,2022-03-15,5.56,#002B5C
@@ -12170,7 +12199,7 @@ UTA,Salt Lake,Utah,2022-03-31,4.81,#002B5C
 UTA,Salt Lake,Utah,2022-04-01,3.43,#002B5C
 UTA,Salt Lake,Utah,2022-04-02,3.43,#002B5C
 UTA,Salt Lake,Utah,2022-04-03,3.43,#002B5C
-WAS,District of Columbia,District of Columbia,2022-03-12,11.24,002B5C
+UTA,Salt Lake,Utah,2022-04-04,2.13,#002B5C
 WAS,District of Columbia,District of Columbia,2022-03-13,11.24,002B5C
 WAS,District of Columbia,District of Columbia,2022-03-14,11.24,002B5C
 WAS,District of Columbia,District of Columbia,2022-03-15,11.24,002B5C
@@ -12193,7 +12222,7 @@ WAS,District of Columbia,District of Columbia,2022-03-31,11.05,002B5C
 WAS,District of Columbia,District of Columbia,2022-04-01,7.94,002B5C
 WAS,District of Columbia,District of Columbia,2022-04-02,5.69,002B5C
 WAS,District of Columbia,District of Columbia,2022-04-03,5.69,002B5C
-NYK,New York City,New York,2022-03-12,8.24,#006BB6
+WAS,District of Columbia,District of Columbia,2022-04-04,5.69,002B5C
 NYK,New York City,New York,2022-03-13,7.69,#006BB6
 NYK,New York City,New York,2022-03-14,7.86,#006BB6
 NYK,New York City,New York,2022-03-15,9.68,#006BB6
@@ -12216,7 +12245,7 @@ NYK,New York City,New York,2022-03-31,16.5,#006BB6
 NYK,New York City,New York,2022-04-01,16.53,#006BB6
 NYK,New York City,New York,2022-04-02,16.53,#006BB6
 NYK,New York City,New York,2022-04-03,11.83,#006BB6
-BKN,New York City,New York,2022-03-12,8.24,#000000
+NYK,New York City,New York,2022-04-04,18.32,#006BB6
 BKN,New York City,New York,2022-03-13,7.69,#000000
 BKN,New York City,New York,2022-03-14,7.86,#000000
 BKN,New York City,New York,2022-03-15,9.68,#000000
@@ -12239,3 +12268,4 @@ BKN,New York City,New York,2022-03-31,16.5,#000000
 BKN,New York City,New York,2022-04-01,16.53,#000000
 BKN,New York City,New York,2022-04-02,16.53,#000000
 BKN,New York City,New York,2022-04-03,11.83,#000000
+BKN,New York City,New York,2022-04-04,18.32,#000000
